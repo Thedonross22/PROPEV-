@@ -1,0 +1,46 @@
+{
+  "projections": [
+    {
+      "player": "Jayson Tatum",
+      "team": "BOS",
+      "market": "player_points",
+      "line": 28.5,
+      "mean": 30.2,
+      "std_dev": 4.8
+    },
+    {
+      "player": "Nikola Jokic",
+      "team": "DEN",
+      "market": "player_rebounds",
+      "line": 11.5,
+      "mean": 12.7,
+      "std_dev": 3.1
+    }
+  ],
+  "odds": [
+    {
+      "bookmaker": "samplebook",
+      "player": "Jayson Tatum",
+      "market": "player_points",
+      "side": "over",
+      "odds": -110,
+      "line": 28.5
+    },
+    {
+      "bookmaker": "samplebook",
+      "player": "Jayson Tatum",
+      "market": "player_points",
+      "side": "under",
+      "odds": -105,
+      "line": 28.5
+    },
+    {
+      "bookmaker": "samplebook",
+      "player": "Nikola Jokic",
+      "market": "player_rebounds",
+      "side": "over",
+      "odds": 120,
+      "line": 11.5
+    }
+  ]
+}
