@@ -4,6 +4,38 @@ CLI utility to pull NBA player prop odds and projections, compute EV, and surfac
 
 ## Setup
 
+### Step-by-step (from no project folder)
+
+1) Open your terminal.
+2) Make a folder for the project and enter it:
+
+```bash
+mkdir -p ~/PROPEV-
+cd ~/PROPEV-
+```
+
+3) Create the project folders you need:
+
+```bash
+mkdir -p ev_tool/clients tests data
+```
+
+4) Copy the files from this repository into your new folder.
+   - If you already downloaded the code, copy everything into `~/PROPEV-`.
+   - If you are pasting by hand in Nano, open each file with Nano and paste.
+
+Example (Nano):
+
+```bash
+nano README.md
+```
+
+Then paste the file contents, save with **Ctrl + O**, press **Enter**, and exit with **Ctrl + X**.
+
+Repeat for each file listed in this repo (for example: `requirements.txt`, `ev_tool/main.py`, etc.).
+
+5) Install Python requirements:
+
 ```bash
 pip install -r requirements.txt
 ```
